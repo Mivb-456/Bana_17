@@ -1,13 +1,13 @@
 body {
-      background-color:  #FFFFEO; /* warna kuning cerah */
-      font-family: Arial, sans-serif; /* warna teks utama (biru gelap) */
-      color: #191970 /*warna text utama ( biru gelap ) */
+      background-color:  #FFFFE0; /* warna kuning cerah */
+      font-family: Arial, sans-serif; /* jenis huruf yang dipakai */
+      color: #191970; /*warna text utama ( biru gelap ) */
 }
 
 .kartu-profil {
       width: 300px;
       margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
-      padding: 20px
+      padding: 20px;
       background-color: white;
       border-radius: 15px; /*membuat sudut menjadi melengkung*/
       box-shadow: 0 4px 8px rgba(0,0,0,0.1); /*efek bayangan*/
@@ -15,5 +15,5 @@ body {
 }
  .kartu-profil img {
       width: 150px;
-      border-radius: 50%; /* trik untuk membuat gambar persegi */
+      border-radius: 50%; /* trik untuk membuat gambar jadi bulat/lengkaran */
  }
